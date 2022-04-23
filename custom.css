@@ -8,8 +8,14 @@
 /* Typography */
 h2,
 h3,
-hgroup > :last-child {
+hgroup> :last-child {
   font-weight: 200;
+}
+
+
+header hgroup h1 {
+  font-size: 3em;
+  text-align: center;
 }
 
 small {
@@ -20,7 +26,7 @@ small {
 .hero {
   background-color: #394046;
   /* background-image: url("https://source.unsplash.com/DNQ-M93tHmA/3000x1000"); */
-  background-image: url("./img/lekerwaard.png");
+  background-image: url("./img/vitality-header.png");
   background-position: center;
   background-size: cover;
 }
@@ -29,8 +35,10 @@ header {
   padding: var(--spacing-company) 0;
 }
 
-header hgroup > :last-child {
-  color: var(--h3-color);
+header hgroup> :last-child {
+  text-align: center;
+  font-weight: 700;
+  color: var(--h1-color);
 }
 
 header hgroup {
